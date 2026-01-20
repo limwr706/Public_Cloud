@@ -45,7 +45,7 @@ def side_bar():
         with col2:
             if st.button('ReRun', use_container_width=True):
                 st.rerun()
-     return selected_page
+     # return selected_page
 
 def main():
     if st.session_state['logged_in'] == True:
